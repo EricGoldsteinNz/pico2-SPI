@@ -1,6 +1,6 @@
 # PICO2 Notes
 
-This fork explicitly sets the board type to pico to stop default building for the original pico.
+This fork explicitly sets the board type to pico2 to stop default building for the original pico.
 
 I've also tested the pico2 running at 18MHz instead of 12 and it seems to work fine.
 
