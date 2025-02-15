@@ -15,9 +15,11 @@ The default pin-out is:
 | GPIO | Pico Pin | Function |
 |------|----------|----------|
 | 1    |    2     | CS       |
+| GND  |    3     | GND      |
 | 2    |    4     | SCK      |
 | 3    |    5     | MOSI     |
 | 4    |    6     | MISO     |
+| 3V3  |    36    | 3V3      |
 
 ## Usage
 
