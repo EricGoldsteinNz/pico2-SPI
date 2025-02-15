@@ -12,14 +12,16 @@ It does not require a custom version of flashrom.
 
 The default pin-out is:
 
-| GPIO | Pico Pin | Function |
-|------|----------|----------|
-| 1    |    2     | CS       |
-| GND  |    3     | GND      |
-| 2    |    4     | SCK      |
-| 3    |    5     | MOSI     |
-| 4    |    6     | MISO     |
-| 3V3  |    36    | 3V3      |
+| GPIO | Pico Pin | Function | Flash Pin |
+|------|----------|----------|-----------|
+| 1    |    2     | CS       |     1     |
+| GND  |    3     | GND      |     4     |
+| 2    |    4     | SCK      |     6     |
+| 3    |    5     | MOSI     |     5     |
+| 4    |    6     | MISO     |     2     |
+| 3V3  |    36    | 3V3      |     8     |
+
+Make sure you double check the pinout on the flash. The values above are just the standard values.
 
 ## Usage
 
