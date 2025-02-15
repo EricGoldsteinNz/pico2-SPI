@@ -8,7 +8,7 @@ I've also tested the pico2 running at 18MHz instead of 12 and it seems to work f
 
 This is a basic flashrom/serprog compatible SPI flash reader/writer for the Raspberry Pi Pico.
 
-It does not require a custom version of flashrom, just drag the compiled uf2 onto your Pico and you're ready to go.
+It does not require a custom version of flashrom.
 
 The default pin-out is:
 
